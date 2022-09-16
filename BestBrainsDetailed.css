@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(orange, #428bca);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    
+}
+
+#heading {
+    text-align: center;
+    padding-top:2.5rem;
+    color:#428bca;
+    font-family: 'Space Mono', monospace;
+    
+}
+#main {
+   border: 5px solid #cc5500;
+   width:50vw;
+   height: 75vh;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   border-radius: 10px;
+   
+}
+
+ #logo {
+  
+   width:300px;
+   height: 300px;
+  padding-left:235px;
+  padding-top:20px;
+
+ }
+ #visit {
+  text-decoration: none;
+  color:#cc5500;
+  font-size:30px;
+  font-weight: 600;
+  position: absolute;
+  top:350px;
+  left:215px;
+  font-family: 'Space Mono', monospace;
+ }
+
+ #visit:hover {
+  color: orange;
+ }
+
+a {
+    text-decoration: none;
+}
+.footLink {
+    color:#cc5500;
+    font-size:1.5rem;
+}
+.footLink:hover {
+    color:orange;
+}
+#feet {
+display: flex;
+padding-top:10px;
+margin:5px;
+justify-content: space-between;
+}
